@@ -1,0 +1,108 @@
+:root{
+    --cor1: #4A2570;
+    --cor2: #8651BC;
+    --cor3: #1A1226;
+    --cor4: #00010D;
+  }
+main{
+    display: grid;
+    max-width: 98.9%;
+    max-height: 100%;
+    grid-template-columns: 49.5% 49.5%;
+    grid-template-rows: 500px 1fr;
+    grid-template-areas:
+        'cardapio cardapio'
+        'adicional adicional'
+    ;
+    gap: 5px;
+}
+.cardapio{
+    grid-area: cardapio;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.cardapio >h2{
+    color: white;
+    position: absolute;
+    left: 50px;
+}
+.acaiNaTijela >h2{
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 480px;
+}
+.acaiNoCopo{
+    display: flex;
+    margin-top: 50px;
+    width: 90%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.acaiNaTijela{
+    display: flex;
+    margin-top: 50px;
+    width: 90%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.opcoes {
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.507);
+    width: 220px;
+    height: 260px;
+    position: relative;
+    padding: 5px;
+    border: 1px solid white;
+    font-family: Verdana, sans-serif;
+    border-radius: 10px;
+}
+.opcoes:hover{
+    box-shadow: 5px 10px 20px var(--cor4);
+    border: 2px solid var(--cor4);
+}
+.opcoes h3{
+    font-size:18px;
+    font-weight: bolder;
+    margin: 0px;
+}
+.opcoes > img{
+    width: 100% ;
+    max-height: 50%;
+}
+.preco{
+    float: right;
+    padding: 10px;
+}
+.precoDe{
+    color: brown;
+}
+.precoPor{
+    color: green;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(3, 81, 3);
+    position: relative;
+    left: 30%;
+    top: 10px;
+
+}
+button:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.507);
+    border: 2px solid rgba(0, 0, 0, 0.504);
+}
