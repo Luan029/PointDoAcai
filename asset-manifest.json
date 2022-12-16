@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/PointDoAcai/static/css/main.8bca470f.css",
-    "main.js": "/PointDoAcai/static/js/main.05ffb90c.js",
+    "main.css": "/PointDoAcai/static/css/main.f4f8024e.css",
+    "main.js": "/PointDoAcai/static/js/main.9a7b5c2c.js",
     "static/js/787.fa962a03.chunk.js": "/PointDoAcai/static/js/787.fa962a03.chunk.js",
     "index.html": "/PointDoAcai/index.html",
-    "main.8bca470f.css.map": "/PointDoAcai/static/css/main.8bca470f.css.map",
-    "main.05ffb90c.js.map": "/PointDoAcai/static/js/main.05ffb90c.js.map",
+    "main.f4f8024e.css.map": "/PointDoAcai/static/css/main.f4f8024e.css.map",
+    "main.9a7b5c2c.js.map": "/PointDoAcai/static/js/main.9a7b5c2c.js.map",
     "787.fa962a03.chunk.js.map": "/PointDoAcai/static/js/787.fa962a03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bca470f.css",
-    "static/js/main.05ffb90c.js"
+    "static/css/main.f4f8024e.css",
+    "static/js/main.9a7b5c2c.js"
   ]
 }
