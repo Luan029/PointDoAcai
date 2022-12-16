@@ -1,19 +1,16 @@
 import React from "react";
 import "./main.css"
-//import {motion} from 'framer-motion'
-//import barca from './barca.jpg'
-//import copos from './copos.jpg'
-//import tijela from './tijela.jpg'
-//import roleta from './roleta.jpg'
-//const imagens = [barca, copos, tijela, roleta ]
+import MontarAcai from "./montarAcai/MontarAcai";
+
 const Main = () =>{
 
     return (
         <React.Fragment>
             <main>
                 <section className="cardapio">
-                    <h2>Açai no copo</h2>
+                    <h2>Nosso Cardápio</h2>
                     <section className="acaiNoCopo">
+                        <h2>Açai no copo</h2>
                         <div className="opcoes">
                             <h3>Açai com Morango</h3>
                             <img src="https://media.istockphoto.com/id/1364213175/pt/foto/brazilian-frozen-a%C3%A7ai-berry-ice-cream-smoothie-in-plastic-cup-with-bananas-strawberry-and.jpg?s=612x612&w=0&k=20&c=d1VUzBghAPoefO-w1uYp59Lp9PcnMRHVhzlfRu8VgXk=" alt="acaiNoCopo" />
@@ -109,6 +106,40 @@ const Main = () =>{
                             <button>COMPRAR</button>
                         </div>
                     </section>
+                    <section className="BarcaOuRoleta">
+                        <h2>Barcas de Açaí</h2>
+                        <div className="opcoes">
+                            <h3>Barca tamanho GG</h3>
+                            <img src="https://www.praticpack.com.br/wp-content/uploads/2020/07/08.barca-de-acai-a-moda-da-sobremesa-refrescante-do-verao-G.jpg" alt="tijela" id="rodarImagem"/>
+                            <div className="preco">
+                                <span className="precoDe"><s>R$24.00</s> </span>
+                                <span className="precoPor">R$19.99</span>
+                            </div>
+                            <button>COMPRAR</button>
+                        </div>
+                        <div className="opcoes">
+                            <h3>Barca tamanho G</h3>
+                            <img src="https://snowfruit.com.br/wp-content/uploads/2021/11/como_aumentar_as_vendas_no_verao_com_as_barcas_de_acai.png" alt="tijela" id="rodarImagem"/>
+                            <div className="preco">
+                                <span className="precoDe"><s>R$20.00</s> </span>
+                                <span className="precoPor">R$16.99</span>
+                            </div>
+                            <button>COMPRAR</button>
+                        </div>
+                        <div className="opcoes">
+                            <h3>Barca tamanho M</h3>
+                            <img src="https://snowfruit.com.br/wp-content/uploads/2021/11/complementos_barca_de_acai.jpg" alt="tijela" id="rodarImagem"/>
+                            <div className="preco">
+                                <span className="precoDe"><s>R$18.00</s> </span>
+                                <span className="precoPor">R$14.99</span>
+                            </div>
+                            <button>COMPRAR</button>
+                        </div>
+                    </section>
+                </section>
+                <section className="MonteSeuPedido">
+                    <MontarAcai/>
+                    
                 </section>
             </main>
         </React.Fragment>

@@ -9,7 +9,7 @@ main{
     max-width: 98.9%;
     max-height: 100%;
     grid-template-columns: 49.5% 49.5%;
-    grid-template-rows: 500px 1fr;
+    grid-template-rows: 1200px 1fr;
     grid-template-areas:
         'cardapio cardapio'
         'adicional adicional'
@@ -24,27 +24,29 @@ main{
     flex-wrap: wrap;
 
 }
-.cardapio >h2{
+.cardapio > h2 {
+    color: white;
+    font-size: 36px;
+}
+.acaiNoCopo >h2{
     color: white;
     position: absolute;
     left: 50px;
+    top: 160px;
 }
 .acaiNaTijela >h2{
     color: white;
     position: absolute;
     left: 50px;
-    top: 480px;
+    top: 540px;
 }
-.acaiNoCopo{
-    display: flex;
-    margin-top: 50px;
-    width: 90%;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    margin-bottom: 50px;
+.BarcaOuRoleta >h2{
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 920px;
 }
-.acaiNaTijela{
+.acaiNoCopo, .BarcaOuRoleta, .acaiNaTijela{
     display: flex;
     margin-top: 50px;
     width: 90%;
@@ -67,7 +69,7 @@ main{
     border-radius: 10px;
 }
 .opcoes:hover{
-    box-shadow: 5px 10px 20px var(--cor4);
+    box-shadow: 1px 1px 10px var(--cor4);
     border: 2px solid var(--cor4);
 }
 .opcoes h3{
@@ -105,4 +107,7 @@ button{
 button:hover{
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.507);
     border: 2px solid rgba(0, 0, 0, 0.504);
+}
+.MonteSeuPedido{
+    grid-area: adicional;
 }
