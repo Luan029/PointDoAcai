@@ -2,6 +2,7 @@ form{
     max-width: 600px;
     margin: 0 auto;
     padding: 60px;
+    background-color: aliceblue;
 }
 input,select, textarea, .radios, .checks{
     margin-bottom: 20px;
