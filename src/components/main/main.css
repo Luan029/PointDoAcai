@@ -9,7 +9,7 @@ main{
     max-width: 98.9%;
     max-height: 100%;
     grid-template-columns: 49.5% 49.5%;
-    grid-template-rows: 1200px 1fr;
+    grid-template-rows: 1200px 300px;
     grid-template-areas:
         'cardapio cardapio'
         'conta conta'
@@ -112,6 +112,26 @@ button:hover{
     grid-area: conta;
     background-color: #4A2570;
     color: white;
+}
+@media(max-width: 800px){
+    main{
+        grid-template-rows: 2800px 1fr;
+    }
+    .acaiNoCopo >h2{
+        left: 20px;
+        top: 210px;
+    }
+    .acaiNaTijela >h2{
+        left: 20px;
+        top: 1200px;
+    }
+    .BarcaOuRoleta >h2{
+        left: 20px;
+        top: 2200px;
+    }
+    .AreaDeConta{
+        height: 100px;
+    }
 }
 @media(max-width: 600px){
     main{
