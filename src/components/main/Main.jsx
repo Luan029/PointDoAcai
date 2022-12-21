@@ -1,9 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 import "./main.css"
-import MontarAcai from "./montarAcai/MontarAcai";
 
 const Main = () =>{
 
+    const [count, setCount] = useState(0);
+    
+    function handleClick(numero) {
+        setCount(count + numero);
+    }
+     
     return (
         <React.Fragment>
             <main>
@@ -18,7 +23,7 @@ const Main = () =>{
                                 <span className="precoDe"><s>R$10.00</s> </span>
                                 <span className="precoPor">R$7.99</span>
                             </div>
-                            <button>COMPRAR</button>
+                            <button onClick={() => handleClick(7.99, "Açai com Morango, ")}>COMPRAR</button>
                         </div>
                         <div className="opcoes">
                             <h3>Açai com leite em pó</h3>
@@ -27,7 +32,7 @@ const Main = () =>{
                                 <span className="precoDe"><s>R$10.00</s> </span>
                                 <span className="precoPor">R$7.99</span>
                             </div>
-                            <button>COMPRAR</button>
+                            <button onClick={() => handleClick(7.99, 'Açai com Leite em Pó, ')}>COMPRAR</button>
                         </div>
                        
                         <div className="opcoes">
@@ -37,7 +42,7 @@ const Main = () =>{
                                 <span className="precoDe"><s>R$10.00</s> </span>
                                 <span className="precoPor">R$7.99</span>
                             </div>
-                            <button>COMPRAR</button>
+                            <button onClick={() => handleClick(7.99, 'Açai com Kiwi, ')}>COMPRAR</button>
                         </div>
                         <div className="opcoes">
                             <h3>Açai com Aveia</h3>
@@ -46,7 +51,7 @@ const Main = () =>{
                                 <span className="precoDe"><s>R$10.00</s> </span>
                                 <span className="precoPor">R$7.99</span>
                             </div>
-                            <button>COMPRAR</button>
+                            <button onClick={() => handleClick(7.99, 'Açai com Aveia, ')}>COMPRAR</button>
                         </div>
                         <div className="opcoes">
                             <h3>Açaí Granulado </h3>
@@ -55,7 +60,7 @@ const Main = () =>{
                                 <span className="precoDe"><s>R$10.00</s> </span>
                                 <span className="precoPor">R$7.99</span>
                             </div>
-                            <button>COMPRAR</button>
+                            <button onClick={() => handleClick(9.99, 'Açai Granulado, ')}>COMPRAR</button>
                         </div> 
                     </section>
                     <section className="acaiNaTijela">
@@ -67,7 +72,7 @@ const Main = () =>{
                                 <span className="precoDe"><s>R$12.00</s> </span>
                                 <span className="precoPor">R$9.99</span>
                             </div>
-                            <button>COMPRAR</button>
+                            <button onClick={() => handleClick(9.99, 'Açai Tradicional, ')}>COMPRAR</button>
                         </div>
                         <div className="opcoes">
                             <h3>Açaí com Banana</h3>
@@ -76,7 +81,7 @@ const Main = () =>{
                                 <span className="precoDe"><s>R$12.00</s> </span>
                                 <span className="precoPor">R$9.99</span>
                             </div>
-                            <button>COMPRAR</button>
+                            <button onClick={() => handleClick(9.99)}>COMPRAR</button>
                         </div>
                         <div className="opcoes">
                             <h3>Açaí Granulado</h3>
@@ -85,7 +90,7 @@ const Main = () =>{
                                 <span className="precoDe"><s>R$12.00</s> </span>
                                 <span className="precoPor">R$9.99</span>
                             </div>
-                            <button>COMPRAR</button>
+                            <button onClick={() => handleClick(9.99, 'Açai Tradicional na Tijela, ')}>COMPRAR</button>
                         </div>
                         <div className="opcoes">
                             <h3>Açaí Puro</h3>
@@ -94,7 +99,7 @@ const Main = () =>{
                                 <span className="precoDe"><s>R$10.00</s> </span>
                                 <span className="precoPor">R$7.50</span>
                             </div>
-                            <button>COMPRAR</button>
+                            <button onClick={() => handleClick(7.50, 'Açai Puro na Tijela, ')}>COMPRAR</button>
                         </div>
                         <div className="opcoes">
                             <h3>Açaí Completo</h3>
@@ -103,7 +108,7 @@ const Main = () =>{
                                 <span className="precoDe"><s>R$15.00</s> </span>
                                 <span className="precoPor">R$12.50</span>
                             </div>
-                            <button>COMPRAR</button>
+                            <button onClick={() => handleClick(12.50, 'Açai Completo na Tijela, ')}>COMPRAR</button>
                         </div>
                     </section>
                     <section className="BarcaOuRoleta">
@@ -115,7 +120,7 @@ const Main = () =>{
                                 <span className="precoDe"><s>R$24.00</s> </span>
                                 <span className="precoPor">R$19.99</span>
                             </div>
-                            <button>COMPRAR</button>
+                            <button onClick={() => handleClick(19.99, 'Barca de Açaí tamanho GG, ')}>COMPRAR</button>
                         </div>
                         <div className="opcoes">
                             <h3>Barca tamanho G</h3>
@@ -124,7 +129,7 @@ const Main = () =>{
                                 <span className="precoDe"><s>R$20.00</s> </span>
                                 <span className="precoPor">R$16.99</span>
                             </div>
-                            <button>COMPRAR</button>
+                            <button onClick={() => handleClick(16.99, 'Barca de Açaí tamanho G, ')}>COMPRAR</button>
                         </div>
                         <div className="opcoes">
                             <h3>Barca tamanho M</h3>
@@ -133,13 +138,12 @@ const Main = () =>{
                                 <span className="precoDe"><s>R$18.00</s> </span>
                                 <span className="precoPor">R$14.99</span>
                             </div>
-                            <button>COMPRAR</button>
+                            <button onClick={() => handleClick(14.99, 'Barca de Açaí tamanho M, ')}>COMPRAR</button>
                         </div>
                     </section>
                 </section>
-                <section className="MonteSeuPedido">
-                    <MontarAcai/>
-                    
+                <section className="AreaDeConta">
+                    <div>Total a pagar: {count.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</div>
                 </section>
             </main>
         </React.Fragment>

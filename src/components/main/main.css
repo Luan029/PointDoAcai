@@ -12,7 +12,7 @@ main{
     grid-template-rows: 1200px 1fr;
     grid-template-areas:
         'cardapio cardapio'
-        'adicional adicional'
+        'conta conta'
     ;
     gap: 5px;
 }
@@ -108,6 +108,61 @@ button:hover{
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.507);
     border: 2px solid rgba(0, 0, 0, 0.504);
 }
-.MonteSeuPedido{
-    grid-area: adicional;
+.AreaDeConta{
+    grid-area: conta;
+    background-color: #4A2570;
+    color: white;
+}
+@media(max-width: 600px){
+    main{
+        grid-template-rows: 2200px 1fr;
+    }
+    .acaiNoCopo, .BarcaOuRoleta, .acaiNaTijela{
+        margin-top: 10px;
+        background-color: #4A2570;
+    }
+    .opcoes{
+        width: 120px;
+        height: 170px;
+        margin-top: 20px;
+    }
+    
+    .opcoes h3{
+        font-size:12px;
+        font-weight: bolder;
+        margin: 0px;
+        text-align: center;
+    }
+    .opcoes > img{
+        width: 100% ;
+        max-height: 45%;
+    }
+    .preco{
+        float: right;
+        padding: 2px;
+    }
+    .precoDe{
+        color: brown;
+        font-size: 11px;
+    }
+    .precoPor{
+        color: green;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    button{
+        left: 20%;
+    }
+    .acaiNoCopo >h2{
+        left: 20px;
+        top: 210px;
+    }
+    .acaiNaTijela >h2{
+        left: 20px;
+        top: 970px;
+    }
+    .BarcaOuRoleta >h2{
+        left: 20px;
+        top: 1720px;
+    }
 }
