@@ -25,3 +25,37 @@ header{
         font-size: 40px;
     }
 }
+@media(max-width: 400px){
+    header{
+        height: 60px;
+    }
+    .logo{
+        margin-right: 5px;
+    }
+    .logo > img{
+        height: 30px;
+        width: 30px;
+        
+    }
+    .titulo > h1 {
+        font-size: 30px;
+    }
+
+}
+@media(max-width: 300px){
+    header{
+        height: 60px;
+    }
+    .logo{
+        margin-right: 5px;
+    }
+    .logo > img{
+        height: 28px;
+        width: 28px;
+        
+    }
+    .titulo > h1 {
+        font-size: 28px;
+    }
+
+}

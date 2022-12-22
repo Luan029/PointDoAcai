@@ -26,3 +26,8 @@ Header{
 Main{
   grid-area: main;
 }
+@media(max-width: 400px){
+  body{
+    grid-template-rows: 60px 1500px 200px;
+  }
+}

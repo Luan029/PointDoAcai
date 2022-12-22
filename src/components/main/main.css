@@ -157,7 +157,6 @@ button:hover{
     }
     .precoDe{
         font-size: 1.2em;
-        color: rgb(42, 165, 67);
     }
     .precoPor{
         font-size: 1.4em;
@@ -215,11 +214,9 @@ button:hover{
         padding: 5px;
     }
     .precoDe{
-        color: brown;
         font-size: 15px;
     }
     .precoPor{
-        color: green;
         font-size: 17px;
         font-weight: bold;
     }
@@ -501,14 +498,15 @@ button:hover{
 }
 @media(max-width: 500px){
     main{
-        grid-template-rows: 1700px 1fr;
+        grid-template-rows: 2350px 1fr;
     }
     .acaiNoCopo, .BarcaOuRoleta, .acaiNaTijela{
         margin-top: 0px;
         background-color: #4A2570;
+        height: 700px;
     }
     .BarcaOuRoleta{
-        height: 260px;
+        height: 500px;
     }
     .acaiNoCopo >h2{
         left: 25px;
@@ -516,11 +514,138 @@ button:hover{
     }
     .acaiNaTijela >h2{
         left: 25px;
-        top: 775px;
+        top: 975px;
     }
     .BarcaOuRoleta >h2{
         left: 25px;
-        top: 1395px;
+        top: 1795px;
+    }
+    
+}
+@media(max-width: 400px){
+    main{
+        grid-template-rows: 2300px 1fr;
+    }
+    
+    .cardapio >h2{
+        font-size: 28px;
+    }
+    .acaiNoCopo, .BarcaOuRoleta, .acaiNaTijela{
+        margin-top: 0px;
+        background-color: #4A2570;
+        height: 700px;
+    }
+    .BarcaOuRoleta{
+        height: 500px;
+    }
+    .acaiNoCopo >h2{
+        left: 20px;
+        top: 110px;
+    }
+    .acaiNaTijela >h2{
+        left: 20px;
+        top: 915px;
+    }
+    .BarcaOuRoleta >h2{
+        left: 20px;
+        top: 1725px;
+    }
+    .opcoes{
+        width: 100px;
+        height: 150px;
+        margin-top: 20px;
+    }
+    
+    .opcoes h3{
+        font-size:9.5px;
+        font-weight: bolder;
+        margin: 0px;
+        text-align: center;
+    }
+    .opcoes > img{
+        width: 100% ;
+        max-height: 45%;
+    }
+    .preco{
+        float: right;
+        padding: 1px;
+    }
+    .precoDe{
+        font-size: 9px;
+    }
+    .precoPor{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    button{
+        font-size: 10px;
+        left: 20%;
+    }
+    
+}
+@media(max-width: 300px){
+    main{
+        grid-template-rows: 2300px 1fr;
+    }
+    
+    .cardapio >h2{
+        font-size: 28px;
+    }
+    .acaiNoCopo, .BarcaOuRoleta, .acaiNaTijela{
+        margin-top: 0px;
+        background-color: #4A2570;
+        height: 700px;
+    }
+    .BarcaOuRoleta{
+        height: 500px;
+    }
+    .acaiNoCopo >h2{
+        left: 15px;
+        top: 115px;
+        font-size: 17px;
+    }
+    .acaiNaTijela >h2{
+        left: 15px;
+        top: 920px;
+        font-size: 17px;
+    }
+    .BarcaOuRoleta >h2{
+        left: 15px;
+        top: 1730px;
+        font-size: 17px;
+    }
+    .opcoes{
+        width: 90px;
+        height: 140px;
+        margin-top: 20px;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.507);
+        border-radius: 5px;
+    }
+    
+    .opcoes h3{
+        font-size:9.5px;
+        font-weight: bolder;
+        margin: 0px;
+        text-align: center;
+    }
+    .opcoes > img{
+        width: 100% ;
+        max-height: 45%;
+    }
+    .preco{
+        float: right;
+        padding: 1px;
+    }
+    .precoDe{
+        font-size: 7px;
+    }
+    .precoPor{
+        font-size: 9px;
+        font-weight: bold;
+    }
+    button{
+        font-size: 10px;
+        left: 15%;
     }
     
 }
