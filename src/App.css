@@ -8,24 +8,7 @@
   --cor3: #1A1226;
   --cor4: #00010D;
 }
-body{
-  background-color: var(--cor3);
-  display: grid;
-  max-width: 100vw;
-  grid-template-columns: 50vw 50vw;
-    grid-template-rows: 100px 1500px 200px;
-    grid-template-areas: 
-        'header header'
-        'main main'
-        'footer footer'  
-    ;
-}
-Header{
-  grid-area: header;
-}
-Main{
-  grid-area: main;
-}
+
 @media(max-width: 400px){
   body{
     grid-template-rows: 60px 1500px 200px;

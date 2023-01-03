@@ -1,0 +1,228 @@
+:root{
+    --cor1: #4A2570;
+    --cor2: #8651BC;
+    --cor3: #1A1226;
+    --cor4: #00010D;
+  }
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.Cadastro, .NotaFiscal{
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+.infoContato{
+    display: flex;
+    justify-content: space-between;
+}
+.infoContato  .marcar{
+    width: 28vw;
+}
+.infoEndereco{
+    margin-top: 15px;    
+}
+.infoEndereco .marcar{
+    margin-bottom: 10px;
+}
+.marcar{
+    width: 60vw;
+    height: 20px;
+}
+.Pagamento{
+    display: flex;
+    justify-content: space-around;
+}
+.NotaFiscal{
+    margin-top: 15px;
+    display: none;
+}
+.checked{
+    margin-top: 15px;
+    display: block;
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+}
+.bolaEsquerda, .bolaDireita{
+    position: absolute;
+}
+.bolaEsquerda{
+    background-color: var(--cor2);
+    width: 18vw;
+    height: 80vh;
+    top: 10%;
+    left: 0;
+    border-radius: 0px 340px 340px 0px;
+}
+.bolaDireita{
+    background-color: var(--cor1);
+    width: 25vw;
+    height: 50vh;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 380px 0px 0px 0px;
+}
+.button{
+    margin-top: 20px;
+}
+@media(max-width: 1400px){
+    .bolaEsquerda{
+        width: 260px;
+        height: 520px;
+    }
+    .bolaDireita{
+        height: 350px;
+    }
+    .formulario h2{
+        font-size: 28px;
+    }
+}
+@media(max-width: 1300px){
+    .bolaEsquerda{
+        width: 240px;
+        height: 480px;
+    }
+    .bolaDireita{
+        height: 300px;
+    }
+    .formulario h2{
+        font-size: 28px;
+    }
+}
+@media(max-width: 1200px){
+    .bolaEsquerda{
+        width: 220px;
+        height: 440px;
+    }
+    .bolaDireita{
+        height: 300px;
+    }
+    .formulario h2{
+        font-size: 28px;
+    }
+}
+@media(max-width: 1100px){
+    .bolaEsquerda{
+        width: 190px;
+        height: 380px;
+    }
+    .bolaDireita{
+        height: 250px;
+    }
+}
+@media(max-width: 1000px){
+    .bolaEsquerda{
+        width: 170px;
+        height: 340px;
+    }
+    .bolaDireita{
+        height: 200px;
+    }
+}
+@media(max-width: 900px){
+    .bolaEsquerda{
+        width: 150px;
+        height: 300px;
+    }
+    .bolaDireita{
+        height: 200px;
+    }
+}
+@media(max-width: 800px){
+    .bolaDireita, .bolaEsquerda{
+        display: none;
+    }
+    .formulario h2{
+        font-size: 25px;
+    }
+    .infoContato  .marcar{
+        width: 30vw;
+    }
+    .marcar{
+        width: 70vw;
+    }
+   
+}
+@media(max-width: 600px){
+    .bolaEsquerda{
+        width: 90px;
+        height: 200px;
+        border-radius: 0px 340px 340px 0px;
+    }
+    .bolaDireita{
+        display: none;
+    }
+    .formulario h2{
+        font-size: 20px;
+    }
+    .infoContato  .marcar{
+        width: 30vw;
+    }
+    .marcar{
+        width: 65vw;
+    }
+}
+@media(max-width: 500px){
+    .bolaEsquerda{
+        display: none;
+    }
+    .bolaDireita{
+        width: 130px;
+        height: 130px;
+    }
+    .formulario h2{
+        font-size: 20px;
+    }
+    .infoContato  .marcar{
+        width: 25vw;
+    }
+    .marcar{
+        width: 65vw;
+    }
+}
+@media(max-width: 400px){
+    .bolaEsquerda{
+        display: none;
+    }
+    .bolaDireita{
+        width: 130px;
+        height: 130px;
+    }
+    .formulario h2{
+        font-size: 20px;
+    }
+    .infoContato  .marcar{
+        width: 25vw;
+    }
+    .marcar{
+        width: 65vw;
+    }
+}
+@media(max-width: 300px){
+    .bolaEsquerda{
+        display: none;
+    }
+    .bolaDireita{
+        width: 120px;
+        height: 120px;
+        bottom: 0px;
+    }
+    .formulario h2{
+        font-size: 15px;
+    }
+    .infoContato  .marcar{
+        width: 25vw;
+    }
+    .marcar{
+        width: 65vw;
+    }
+    .nota{
+        font-size: 10px;
+    }
+}

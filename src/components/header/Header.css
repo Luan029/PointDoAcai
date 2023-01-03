@@ -4,13 +4,21 @@ header{
     align-items: center;
     justify-content: center;
 }
-.logo > img{
-    height: 60px;
-    width: 60px;
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .titulo > h1{
     font-size: 50px;
     color: white;
+}
+.titulo h2 {
+    color: white;
+    font-size: 36px;
 }
 @media(max-width: 600px){
     .logo{
@@ -27,18 +35,13 @@ header{
 }
 @media(max-width: 400px){
     header{
-        height: 60px;
-    }
-    .logo{
-        margin-right: 5px;
-    }
-    .logo > img{
-        height: 30px;
-        width: 30px;
-        
+        height: 80px;
     }
     .titulo > h1 {
-        font-size: 30px;
+        font-size: 25px;
+    }
+    .titulo > h2{
+        font-size: 20px;
     }
 
 }
@@ -46,16 +49,12 @@ header{
     header{
         height: 60px;
     }
-    .logo{
-        margin-right: 5px;
-    }
-    .logo > img{
-        height: 28px;
-        width: 28px;
-        
-    }
+    
     .titulo > h1 {
-        font-size: 28px;
+        font-size: 15px;
+    }
+    .titulo> h2{
+        font-size: 12px;
     }
 
 }
