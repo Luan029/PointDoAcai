@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/PointDoAcai/static/css/main.5f764c56.css",
-    "main.js": "/PointDoAcai/static/js/main.effb1601.js",
+    "main.css": "/PointDoAcai/static/css/main.b42eb763.css",
+    "main.js": "/PointDoAcai/static/js/main.49544b6c.js",
     "static/js/787.fa962a03.chunk.js": "/PointDoAcai/static/js/787.fa962a03.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/PointDoAcai/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/PointDoAcai/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/PointDoAcai/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/PointDoAcai/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/PointDoAcai/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/PointDoAcai/index.html",
-    "main.5f764c56.css.map": "/PointDoAcai/static/css/main.5f764c56.css.map",
-    "main.effb1601.js.map": "/PointDoAcai/static/js/main.effb1601.js.map",
+    "main.b42eb763.css.map": "/PointDoAcai/static/css/main.b42eb763.css.map",
+    "main.49544b6c.js.map": "/PointDoAcai/static/js/main.49544b6c.js.map",
     "787.fa962a03.chunk.js.map": "/PointDoAcai/static/js/787.fa962a03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f764c56.css",
-    "static/js/main.effb1601.js"
+    "static/css/main.b42eb763.css",
+    "static/js/main.49544b6c.js"
   ]
 }
