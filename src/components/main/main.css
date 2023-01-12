@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 :root{
     --cor1: #4A2570;
     --cor2: #8651BC;
@@ -43,27 +44,27 @@ main{
     flex-wrap: wrap;
 
 }
-.cardapio > h2 {
-    color: white;
-    font-size: 36px;
-}
 .acaiNoCopo >h2{
     color: white;
     position: absolute;
     left: 50px;
     top: 125px;
+    font-family: 'Courgette', cursive;
 }
 .acaiNaTijela >h2{
     color: white;
     position: absolute;
     left: 50px;
     top: 540px;
+    font-family: 'Courgette', cursive;
+
 }
 .BarcaOuRoleta >h2{
     color: white;
     position: absolute;
     left: 50px;
     top: 920px;
+    font-family: 'Courgette', cursive;
 }
 .acaiNoCopo, .BarcaOuRoleta, .acaiNaTijela{
     display: flex;
@@ -97,6 +98,7 @@ main{
     font-size:18px;
     font-weight: bolder;
     margin: 0px;
+    text-align: center;
 }
 .opcoes > img{
     width: 100% ;
@@ -156,6 +158,9 @@ main{
 #remove{
     background-color: red;
     border: none;
+}
+#preco{
+    margin-left: 10px;
 }
 @media(min-width: 1401px){
     main{

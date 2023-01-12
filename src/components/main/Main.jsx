@@ -23,46 +23,46 @@ const Main = (props) =>{
                     <section className="cardapio">
                        
                         <section className="acaiNoCopo">
-                            <h2>Açai no copo</h2>
+                            <h2>Açaí no copo</h2>
                             <div className="opcoes">
-                                <h3>Açai com Morango</h3>
+                                <h3>Açaí com Morango</h3>
                                 <img src="https://media.istockphoto.com/id/1364213175/pt/foto/brazilian-frozen-a%C3%A7ai-berry-ice-cream-smoothie-in-plastic-cup-with-bananas-strawberry-and.jpg?s=612x612&w=0&k=20&c=d1VUzBghAPoefO-w1uYp59Lp9PcnMRHVhzlfRu8VgXk=" alt="acaiNoCopo" />
                                 <div className="preco">
                                     <span className="precoDe"><s>R$10.00</s> </span>
                                     <span className="precoPor">R$7.99</span>
                                 </div>
-                                <button onClick={() => handleClick(7.99, "Açai com Morango, ")} className="botaoComprar">COMPRAR</button>
+                                <button onClick={() => handleClick(7.99, "Açaí com Morango, ")} className="botaoComprar">COMPRAR</button>
 
                             </div>
                             <div className="opcoes">
-                                <h3>Açai com leite em pó</h3>
+                                <h3>Açaí com leite em pó</h3>
                                 <img src="https://as2.ftcdn.net/v2/jpg/04/23/60/59/1000_F_423605907_YV7oMBOwecZ2Fu6aho9Owi8U4zcROBTm.jpg" alt="acaiNoCopo" />
                                 <div className="preco">
                                     <span className="precoDe"><s>R$10.00</s> </span>
                                     <span className="precoPor">R$7.99</span>
                                 </div>
-                                <button onClick={() => handleClick(7.99, 'Açai com Leite em Pó, ')} className="botaoComprar">COMPRAR</button>
+                                <button onClick={() => handleClick(7.99, 'Açaí com Leite em Pó, ')} className="botaoComprar">COMPRAR</button>
 
                             </div>
                 
                             <div className="opcoes">
-                                <h3>Açai com Kiwi</h3>
+                                <h3>Açaí com Kiwi</h3>
                                 <img src="https://img.freepik.com/fotos-premium/copo-de-acai-com-leite-condensado-de-kiwi-e-granola-isolado-no-fundo-branco_519721-138.jpg?w=360" alt="acaiNoCopo" />
                                 <div className="preco">
                                     <span className="precoDe"><s>R$10.00</s> </span>
                                     <span className="precoPor">R$7.99</span>
                                 </div>
-                                <button onClick={() => handleClick(7.99, 'Açai com Kiwi, ')} className="botaoComprar">COMPRAR</button>
+                                <button onClick={() => handleClick(7.99, 'Açaí com Kiwi, ')} className="botaoComprar">COMPRAR</button>
 
                             </div>
                             <div className="opcoes">
-                                <h3>Açai com Aveia</h3>
+                                <h3>Açaí com Aveia</h3>
                                 <img src="https://img.freepik.com/fotos-premium/sorvete-de-acai-congelado-brasileiro-em-copo-plastico-com-flocos-de-aveia-isolado-no-fundo-branco-vista-frontal-do-menu-de-verao_317399-990.jpg?w=740" alt="acaiNoCopo" />
                                 <div className="preco">
                                     <span className="precoDe"><s>R$10.00</s> </span>
                                     <span className="precoPor">R$7.99</span>
                                 </div>
-                                <button onClick={() => handleClick(7.99, 'Açai com Aveia, ')} className="botaoComprar">COMPRAR</button>
+                                <button onClick={() => handleClick(7.99, 'Açaí com Aveia, ')} className="botaoComprar">COMPRAR</button>
 
                             </div>
                             <div className="opcoes">
@@ -72,12 +72,12 @@ const Main = (props) =>{
                                     <span className="precoDe"><s>R$10.00</s> </span>
                                     <span className="precoPor">R$7.99</span>
                                 </div>
-                                <button onClick={() => handleClick(9.99, 'Açai Granulado, ')} className="botaoComprar">COMPRAR</button>
+                                <button onClick={() => handleClick(9.99, 'Açaí Granulado, ')} className="botaoComprar">COMPRAR</button>
 
                             </div>
                         </section>
                         <section className="acaiNaTijela">
-                            <h2>Açai na Tijela</h2>
+                            <h2>Açaí na Vasilha</h2>
                             <div className="opcoes">
                                 <h3>Açaí Tradicional</h3>
                                 <img src="https://st2.depositphotos.com/4366637/12182/i/600/depositphotos_121824102-stock-photo-acai-cup-brazilian-famous-fruit.jpg" alt="tijela" />
@@ -85,7 +85,7 @@ const Main = (props) =>{
                                     <span className="precoDe"><s>R$12.00</s> </span>
                                     <span className="precoPor">R$9.99</span>
                                 </div>
-                                <button onClick={() => handleClick(9.99, 'Açai Tradicional, ')} className="botaoComprar">COMPRAR</button>
+                                <button onClick={() => handleClick(9.99, 'Açaí Tradicional, ')} className="botaoComprar">COMPRAR</button>
 
                             </div>
                             <div className="opcoes">
@@ -105,7 +105,7 @@ const Main = (props) =>{
                                     <span className="precoDe"><s>R$12.00</s> </span>
                                     <span className="precoPor">R$9.99</span>
                                 </div>
-                                <button onClick={() => handleClick(9.99, 'Açai Tradicional na Tijela, ')} className="botaoComprar">COMPRAR</button>
+                                <button onClick={() => handleClick(9.99, 'Açaí Tradicional na Tijela, ')} className="botaoComprar">COMPRAR</button>
 
                             </div>
                             <div className="opcoes">
@@ -115,7 +115,7 @@ const Main = (props) =>{
                                     <span className="precoDe"><s>R$10.00</s> </span>
                                     <span className="precoPor">R$7.50</span>
                                 </div>
-                                <button onClick={() => handleClick(7.50, 'Açai Puro na Tijela, ')} className="botaoComprar">COMPRAR</button>
+                                <button onClick={() => handleClick(7.50, 'Açaí Puro na Tijela, ')} className="botaoComprar">COMPRAR</button>
 
                             </div>
                             <div className="opcoes">
@@ -125,7 +125,7 @@ const Main = (props) =>{
                                     <span className="precoDe"><s>R$15.00</s> </span>
                                     <span className="precoPor">R$12.50</span>
                                 </div>
-                                <button onClick={() => handleClick(12.50, 'Açai Completo na Tijela, ')} className="botaoComprar">COMPRAR</button>
+                                <button onClick={() => handleClick(12.50, 'Açaí Completo na Tijela, ')} className="botaoComprar">COMPRAR</button>
 
                             </div>
                         </section>
@@ -162,7 +162,7 @@ const Main = (props) =>{
                         </section>
                     </section>
                     <section className="AreaDeConta">
-                        <div>Total a pagar: {count.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
+                        <div id="preco">Total a pagar: {count.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
                         </div>
                         <div className="finalizar">
                             <Link to={"/users/" + (count)}id="finalizarCompra">Finallizar compra</Link>

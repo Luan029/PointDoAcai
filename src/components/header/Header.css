@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 header{
     display: flex;
     max-width: 98.9%;
     align-items: center;
     justify-content: center;
+    
 }
 
 .titulo{
@@ -10,7 +12,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    font-family: 'Secular One', sans-serif;
 }
 .titulo > h1{
     font-size: 50px;
@@ -21,14 +23,7 @@ header{
     font-size: 36px;
 }
 @media(max-width: 600px){
-    .logo{
-        margin-right: 10px;
-    }
-    .logo > img{
-        height: 40px;
-        width: 40px;
-        
-    }
+    
     .titulo > h1 {
         font-size: 40px;
     }
