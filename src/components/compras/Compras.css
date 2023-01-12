@@ -70,6 +70,34 @@
 }
 .button{
     margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+#enviar, #voltar{
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+    border: none;
+}
+#enviar{
+    background-color: green;
+}
+#voltar{
+    background-color: red;
+    
+}
+.Pagamento > label{
+    display: flex;
+}
+.Pagamento p{
+    font-size: 1.1em;
+    margin-right: 3px;
+}
+.icon{
+    margin-top: 4px;
 }
 @media(max-width: 1400px){
     .bolaEsquerda{

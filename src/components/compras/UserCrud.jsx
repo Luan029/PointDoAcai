@@ -2,6 +2,9 @@ import React  from "react"
 import Header from "../header/Header";
 import { useParams } from "react-router-dom";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import {FaArrowLeft, FaMoneyCheck, FaMoneyBillAlt} from "react-icons/fa"
+import{AiOutlineDollarCircle} from "react-icons/ai"
 import "./Compras.css"
 
 const headerProps = {
@@ -97,13 +100,13 @@ const UserCrud = props =>{
                             </div>
                             <h2>Formas de Pagamento:</h2>
                             <div className="Pagamento">
-                                <label><input type="radio" value="Pix" onChange={(e) => setPagamento(e.target.value)} />Pix</label>
-                                <label><input type="radio" value="Cartão" onChange={(e) => setPagamento(e.target.value)} />Cartão</label>
-                                <label><input type="radio" value="Espécie" onChange={(e) => setPagamento(e.target.value)} />Espécie</label>
+                                <label><input type="radio" value="Pix" onChange={(e) => setPagamento(e.target.value)} /><p>Pix</p><AiOutlineDollarCircle className="icon"/></label>
+                                <label><input type="radio" value="Cartão" onChange={(e) => setPagamento(e.target.value)} /><p>Cartão </p><FaMoneyCheck className="icon"/></label>
+                                <label><input type="radio" value="Espécie" onChange={(e) => setPagamento(e.target.value)} /><p>Espécie</p> <FaMoneyBillAlt className="icon"/></label>
                             </div>
                             <div className="button">
-                                <input type="submit" value="Finalizar Compra" className="enviar" onClick={cadastroUsuario}/>
-                                
+                                <input type="submit" value="Finalizar Compra" id="enviar" onClick={cadastroUsuario}/>
+                                <Link to={'/'} id="voltar"><FaArrowLeft className="icon"/> Voltar</Link>
                             </div>
                         </form>
                     </div>
