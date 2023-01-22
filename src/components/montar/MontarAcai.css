@@ -1,0 +1,81 @@
+:root{
+    --cor1: #4A2570;
+    --cor2: #8651BC;
+    --cor3: #1A1226;
+    --cor4: #00010D;
+  }
+#montar{
+    min-height: 565px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+#opcoesDeAcai{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:300px;
+}
+.botaoMontarAcai{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid green;
+    width: 400px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.botaoMontarAcai span{
+    color: green;
+    font-weight: bolder;
+}
+.descricao{
+    display: none;
+}
+.checado{
+    margin-top: 15px;
+    display: block;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    min-width: 500px;
+    min-height: 200px;
+    border-radius: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.checado > #tituloPedido{
+    background-color: var(--cor2);
+    height: 30px;
+    border-radius: 15px 15px 0px 0px;
+    margin: -10px -10px 10px -10px;
+}
+#tituloPedido > button{
+    margin-top: 7px;
+    margin-left: 5px;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    color: white;
+    font-size: 1em;
+}
+#obs{
+    margin: 10px 0px 10px 12px;
+    height: 50px;
+    width: 90%;
+}
+.complementos{
+    display: flex;
+    justify-content: space-around;
+}
+.formComplementosAdd form{
+    display: flex;
+    flex-direction: column;
+}
+.enviarEpreco{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}

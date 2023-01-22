@@ -1,0 +1,22 @@
+footer{
+    background-color: var(--cor4);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.redes{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+   
+}
+.iconColor{
+color: white;
+}

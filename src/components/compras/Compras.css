@@ -5,12 +5,31 @@
     --cor3: #1A1226;
     --cor4: #00010D;
   }
+.paginaForm{
+    display: grid;
+    max-width: 100vw;
+    box-sizing: border-box;
+    grid-template-columns: 100vw;
+    grid-template-rows: 150px 650px 80px;
+    grid-template-areas: 
+        'header'
+        'main'
+        'footer'  
+    ; 
+}
+Header{
+    grid-area: header;
+}
 .main{
+    grid-area: main;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+}
+Footer{
+    grid-area: footer;
 }
 .formulario h2{
     font-family: 'Oswald', sans-serif;
@@ -54,24 +73,10 @@
     color: white;
     padding: 10px;
 }
-.bolaEsquerda, .bolaDireita{
-    position: absolute;
-}
-.bolaEsquerda{
-    background-color: var(--cor2);
-    width: 18vw;
-    height: 80vh;
-    top: 10%;
-    left: 0;
-    border-radius: 0px 340px 340px 0px;
-}
-.bolaDireita{
-    background-color: var(--cor1);
-    width: 25vw;
-    height: 50vh;
-    bottom: 0px;
-    right: 0px;
-    border-radius: 380px 0px 0px 0px;
+.nota{
+    display: flex;
+    justify-content: space-around;
+    max-width: 300px;
 }
 .button{
     margin-top: 20px;
@@ -104,73 +109,47 @@
 .icon{
     margin-top: 4px;
 }
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    max-width: 1333px;
+    border: 2px solid black;
+    background-color: #1A1226;
+}
+thead{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    text-indent: 5px;
+    border: 2px solid black;
+}
+thead tr{
+    text-align: center;
+}
+table td{
+    border: 1px solid black;
+    padding: 3px;
+}
 @media(max-width: 1400px){
-    .bolaEsquerda{
-        width: 260px;
-        height: 520px;
-    }
-    .bolaDireita{
-        height: 350px;
-    }
+    
     .formulario h2{
         font-size: 28px;
     }
 }
 @media(max-width: 1300px){
-    .bolaEsquerda{
-        width: 240px;
-        height: 480px;
-    }
-    .bolaDireita{
-        height: 300px;
-    }
+    
     .formulario h2{
         font-size: 28px;
     }
 }
 @media(max-width: 1200px){
-    .bolaEsquerda{
-        width: 220px;
-        height: 440px;
-    }
-    .bolaDireita{
-        height: 300px;
-    }
+   
     .formulario h2{
         font-size: 28px;
     }
 }
-@media(max-width: 1100px){
-    .bolaEsquerda{
-        width: 190px;
-        height: 380px;
-    }
-    .bolaDireita{
-        height: 250px;
-    }
-}
-@media(max-width: 1000px){
-    .bolaEsquerda{
-        width: 170px;
-        height: 340px;
-    }
-    .bolaDireita{
-        height: 200px;
-    }
-}
-@media(max-width: 900px){
-    .bolaEsquerda{
-        width: 150px;
-        height: 300px;
-    }
-    .bolaDireita{
-        height: 200px;
-    }
-}
+
 @media(max-width: 800px){
-    .bolaDireita, .bolaEsquerda{
-        display: none;
-    }
     .formulario h2{
         font-size: 25px;
     }
@@ -183,14 +162,7 @@
    
 }
 @media(max-width: 600px){
-    .bolaEsquerda{
-        width: 90px;
-        height: 200px;
-        border-radius: 0px 340px 340px 0px;
-    }
-    .bolaDireita{
-        display: none;
-    }
+   
     .formulario h2{
         font-size: 20px;
     }
@@ -202,13 +174,7 @@
     }
 }
 @media(max-width: 500px){
-    .bolaEsquerda{
-        display: none;
-    }
-    .bolaDireita{
-        width: 130px;
-        height: 130px;
-    }
+
     .formulario h2{
         font-size: 20px;
     }
@@ -220,13 +186,7 @@
     }
 }
 @media(max-width: 400px){
-    .bolaEsquerda{
-        display: none;
-    }
-    .bolaDireita{
-        width: 130px;
-        height: 130px;
-    }
+    
     .formulario h2{
         font-size: 20px;
     }
@@ -238,14 +198,6 @@
     }
 }
 @media(max-width: 300px){
-    .bolaEsquerda{
-        display: none;
-    }
-    .bolaDireita{
-        width: 120px;
-        height: 120px;
-        bottom: 0px;
-    }
     .formulario h2{
         font-size: 15px;
     }
