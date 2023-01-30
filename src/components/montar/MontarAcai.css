@@ -83,6 +83,81 @@
     justify-content: space-around;
     margin-top: 5px;
 }
-@media(max-width: 300px){
+#EnviarAcai{
+    background-color: #8651BC;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+@media(max-width: 500px){
+    .montarAcai{
+        min-height: 100vh;
+        max-width: 98vw;
+        overflow-x: hidden;
+    }
+    #opcoesDeAcai{
+        height: 300px;
+    }
+    .botaoMontarAcai{
+        width: 90vw;
+        
+    }
+    .checado{
+        min-width: 2vw;
+        width: 90vw;
+    }
+    .complementos{
+        max-height: 500px;
+        flex-direction: column;
+        overflow-y: auto;
+    }
     
+}
+@media(max-width: 400px){
+    .montarAcai{
+        min-height: 100vh;
+        max-width: 98vw;
+        overflow-x: hidden;
+    }
+    #opcoesDeAcai{
+        height: 300px;
+    }
+    .botaoMontarAcai{
+        max-width: 90vw;
+        
+    }
+    .checado{
+        min-width: 2vw;
+        width: 90vw;
+    }
+    .complementos{
+        max-height: 500px;
+        flex-direction: column;
+        overflow-y: auto;
+    }
+    
+    
+}
+@media(max-width: 300px){
+    .montarAcai{
+        min-height: 100vh;
+        max-width: 98vw;
+        overflow-x: hidden;
+    }
+    #opcoesDeAcai{
+        height: 350px;
+    }
+    .botaoMontarAcai{
+        max-width: 85vw;
+        
+    }
+    .checado{
+        min-width: 2vw;
+        max-width: 85vw;
+    }
+    .complementos{
+        max-height: 500px;
+        flex-direction: column;
+        overflow-y: auto;
+    }
 }

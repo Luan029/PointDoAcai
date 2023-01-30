@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./MontarAcai.css"
 import Header from "../header/Header"
 import Footer from "../footer/Footer";
+import { Link } from "react-router-dom";
 
 const headerProps = {
     title: "Point do Açaí",
@@ -151,7 +152,7 @@ const MontarAcai = () => {
                         <div className="complementos">
                             <div className="formComplementosAdd">
                                 <h4>COMPLEMENTOS</h4>
-                                <form>
+                                <form id="adicionaiis">
                                     <label>
                                         <input type="checkbox" 
                                             className="complementoos" 
@@ -362,9 +363,9 @@ const MontarAcai = () => {
                                         'currency', currency: 'BRL'
                                 })}
                             </span>
-                            <button type="submit" onClick= 
-                                {handleSubmit}>Enviar
-                            </button>
+                            <Link to={"/users/" + (count)}        type="submit" onClick={handleSubmit} id="EnviarAcai">
+                                Enviar
+                            </Link>
                         </div>
                     </section>
                 </div>
