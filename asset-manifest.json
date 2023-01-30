@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PointDoAcai/static/css/main.6e090e2a.css",
-    "main.js": "/PointDoAcai/static/js/main.e6c38a2a.js",
+    "main.css": "/PointDoAcai/static/css/main.358735b7.css",
+    "main.js": "/PointDoAcai/static/js/main.2174672a.js",
     "static/js/787.fa962a03.chunk.js": "/PointDoAcai/static/js/787.fa962a03.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/PointDoAcai/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/PointDoAcai/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -9,12 +9,12 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/PointDoAcai/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/PointDoAcai/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/PointDoAcai/index.html",
-    "main.6e090e2a.css.map": "/PointDoAcai/static/css/main.6e090e2a.css.map",
-    "main.e6c38a2a.js.map": "/PointDoAcai/static/js/main.e6c38a2a.js.map",
+    "main.358735b7.css.map": "/PointDoAcai/static/css/main.358735b7.css.map",
+    "main.2174672a.js.map": "/PointDoAcai/static/js/main.2174672a.js.map",
     "787.fa962a03.chunk.js.map": "/PointDoAcai/static/js/787.fa962a03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e090e2a.css",
-    "static/js/main.e6c38a2a.js"
+    "static/css/main.358735b7.css",
+    "static/js/main.2174672a.js"
   ]
 }
