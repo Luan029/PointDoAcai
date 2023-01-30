@@ -166,9 +166,15 @@ const Main = (props) =>{
                         <div id="preco">Total a pagar: {count.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
                         </div>
                         <div className="finalizar">
-                            <Link to={"/users/" + (count)}id="finalizarCompra">Finallizar compra</Link>
-                            <Link to={"/MontarAcai"} id="montarAcaii">Montar Açaí</Link>
-                            <button onClick={() => remover()} id="remove">Cancelar Pedido <FaTrashAlt/></button>
+                            <div>
+                                <Link to={"/users/" + (count)}id="finalizarCompra">Finallizar compra</Link>
+                            </div>
+                            <div>
+                                <Link to={"/MontarAcai"} id="montarAcaii">Montar Açaí</Link>
+                            </div>
+                            <div>
+                                <button onClick={() => remover()} id="remove">Cancelar Pedido <FaTrashAlt/></button>
+                            </div>
                         </div>
                     </section>
                 </main>

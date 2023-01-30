@@ -4,6 +4,10 @@
     --cor3: #1A1226;
     --cor4: #00010D;
   }
+.montarAcai{
+    
+    min-width: 100vw;
+  }
 #montar{
     min-height: 565px;
     display: flex;
@@ -78,4 +82,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 5px;
+}
+@media(max-width: 300px){
+    
 }

@@ -20,3 +20,11 @@ a{
 .iconColor{
 color: white;
 }
+@media(max-width: 300px){
+    footer{
+        height: 60px;
+    }
+    h2{
+        font-size: 18px;
+    }
+}

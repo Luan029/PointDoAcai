@@ -83,17 +83,18 @@ main{
     padding: 10px;
 }
 .opcoes {
-    display: inline-block;
+    display: flex;
     vertical-align: top;
     background-color: white;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.507);
     width: 220px;
     height: 260px;
-    position: relative;
     padding: 5px;
     border: 1px solid white;
     font-family: Verdana, sans-serif;
     border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
 }
 .opcoes:hover{
     box-shadow: 1px 1px 10px var(--cor4);
@@ -111,8 +112,12 @@ main{
     max-height: 50%;
 }
 .preco{
-    float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
     padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .precoDe{
     color: brown;
@@ -129,10 +134,7 @@ main{
     padding: 5px;
     border-radius: 3px;
     border: 1.5px solid rgb(3, 81, 3);
-    position: relative;
-    left: 10px;
-    top: 10px;
-
+    
 }
 .botaoComprar:hover{
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.507);
@@ -225,6 +227,10 @@ main{
     }
 }
 @media(max-width: 1400px){
+    .corpo{
+        grid-template-rows: 150px 1300px 70px;
+       
+    }
     main{
         grid-template-rows: 1200px 1fr;
     }
@@ -281,8 +287,12 @@ main{
     }
 }
 @media(max-width: 1300px){
+    .corpo{
+        grid-template-rows: 150px 1900px 70px;
+       
+    }
     main{
-        grid-template-rows: 1900px 200px;
+        grid-template-rows: 1800px 200px;
     }
     
     .acaiNoCopo, .BarcaOuRoleta, .acaiNaTijela{
@@ -299,19 +309,26 @@ main{
     .acaiNoCopo >h2{
         top: 125px;
         left: 65px;
+        font-size: 22px;
     }
     .acaiNaTijela >h2{
-        top: 875px;
+        top: 840px;
         left: 65px;
+        font-size: 22px;
     }
     .BarcaOuRoleta >h2{
-        top: 1625px;
+        top: 1557px;
         left: 65px;
+        font-size: 22px;
     }
 }
 @media(max-width: 1200px){
+    .corpo{
+        grid-template-rows: 150px 1900px 70px;
+       
+    }
     main{
-        grid-template-rows: 1900px 200px;
+        grid-template-rows: 1800px 200px;
     }
     
     .acaiNoCopo, .BarcaOuRoleta, .acaiNaTijela{
@@ -325,17 +342,24 @@ main{
     .acaiNoCopo >h2{
         top: 125px;
         left: 60px;
+        font-size: 23px;
     }
     .acaiNaTijela >h2{
-        top: 870px;
+        top: 840px;
         left: 60px;
+        font-size: 23px;
     }
     .BarcaOuRoleta >h2{
-        top: 1625px;
+        top: 1557px;
         left: 60px;
+        font-size: 23px;
     }
 }
 @media(max-width: 1100px){
+    .corpo{
+        grid-template-rows: 150px 2000px 70px;
+       
+    }
     main{
         grid-template-rows: 1900px 200px;
     }
@@ -351,19 +375,26 @@ main{
     .acaiNoCopo >h2{
         top: 125px;
         left: 55px;
+        font-size: 23px;
     }
     .acaiNaTijela >h2{
         top: 875px;
         left: 55px;
+        font-size: 23px;
     }
     .BarcaOuRoleta >h2{
         top: 1625px;
         left: 55px;
+        font-size: 23px;
     }
 }
 @media(max-width: 1000px){
+    .corpo{
+        grid-template-rows: 150px 1900px 50px;
+       
+    }
     main{
-        grid-template-rows: 1900px 200px;
+        grid-template-rows: 1800px 200px;
     }
     
     .acaiNoCopo, .BarcaOuRoleta, .acaiNaTijela{
@@ -377,19 +408,26 @@ main{
     .acaiNoCopo >h2{
         top: 125px;
         left: 50px;
+        font-size: 22px;
     }
     .acaiNaTijela >h2{
-        top: 875px;
+        top: 840px;
         left: 50px;
+        font-size: 22px;
     }
     .BarcaOuRoleta >h2{
-        top: 1625px;
+        top: 1557px;
         left: 50px;
+        font-size: 22px;
     }
 }
 @media(max-width: 900px) {
+    .corpo{
+        grid-template-rows: 150px 1750px 70px;
+       
+    }
     main{
-        grid-template-rows: 1800px 200px;
+        grid-template-rows: 1630px 200px;
     }
     
     .cardapio > h2 {
@@ -434,41 +472,55 @@ main{
         left: 33%;
     }
     .acaiNoCopo >h2{
-        top: 125px;
+        top: 127px;
         left: 45px;
+        font-size: 21px;
     }
     .acaiNaTijela >h2{
-        top: 815px;
+        top: 760px;
         left: 45px;
+        font-size: 21px;
     }
     .BarcaOuRoleta >h2{
-        top: 1505px;
+        top: 1393px;
         left: 45px;
+        font-size: 21px;
     }
 }
 @media(max-width: 800px){
+    .corpo{
+        grid-template-rows: 150px 1830px 90px;
+       
+    }
     main{
-        grid-template-rows: 1900px 1fr;
+        grid-template-rows: 1700px 1fr;
     }
     .acaiNoCopo >h2{
         left: 40px;
         top: 125px;
+        font-size: 20px;
     }
     .acaiNaTijela >h2{
         left: 40px;
-        top: 845px;
+        top: 783px;
+        font-size: 20px;
     }
     .BarcaOuRoleta >h2{
         left: 40px;
-        top: 1570px;
+        top: 1440px;
+        font-size: 20px;
     }
     .AreaDeConta{
         height: 100px;
     }
 }
 @media(max-width: 700px){
+    .corpo{
+        grid-template-rows: 150px 2730px 90px;
+       
+    }
     main{
-        grid-template-rows: 2800px 1fr;
+        grid-template-rows: 2600px 1fr;
     }
     .acaiNoCopo, .BarcaOuRoleta, .acaiNaTijela{
         margin-top: 0px;
@@ -483,21 +535,28 @@ main{
     }
     .acaiNoCopo >h2{
         left: 35px;
-        top: 125px;
+        top: 128px;
+        font-size: 19px;
     }
     .acaiNaTijela >h2{
         left: 35px;
-        top: 1155px;
+        top: 1095px;
+        font-size: 19px;
     }
     .BarcaOuRoleta >h2{
         left: 35px;
-        top: 2190px;
+        top: 2060px;
+        font-size: 19px;
     }
 }
 
 @media(max-width: 600px){
+    .corpo{
+        grid-template-rows: 150px 1630px 90px;
+       
+    }
     main{
-        grid-template-rows: 1800px 1fr;
+        grid-template-rows: 1500px 1fr;
     }
     .acaiNoCopo, .BarcaOuRoleta, .acaiNaTijela{
         
@@ -542,20 +601,34 @@ main{
     }
     .acaiNoCopo >h2{
         left: 30px;
-        top: 125px;
+        top: 130px;
+        font-size: 17px;
     }
     .acaiNaTijela >h2{
         left: 30px;
-        top: 805px;
+        top: 710px;
+        font-size: 17px;
     }
     .BarcaOuRoleta >h2{
         left: 30px;
-        top: 1490px;
+        top: 1295px;
+        font-size: 17px;
+    }
+    .finalizar{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        height: 50px;
     }
 }
 @media(max-width: 500px){
+    .corpo{
+        grid-template-rows: 150px 2300px 100px;
+       
+    }
     main{
-        grid-template-rows: 2350px 1fr;
+        grid-template-rows: 2150px 1fr;
     }
     .acaiNoCopo, .BarcaOuRoleta, .acaiNaTijela{
         margin-top: 0px;
@@ -567,24 +640,35 @@ main{
     }
     .acaiNoCopo >h2{
         left: 25px;
-        top: 125px;
+        top: 130px;
+        font-size: 16px;
     }
     .acaiNaTijela >h2{
         left: 25px;
-        top: 975px;
+        top: 915px;
+        font-size: 16px;
     }
     .BarcaOuRoleta >h2{
         left: 25px;
-        top: 1825px;
+        top: 1695px;
+        font-size: 16px;
+    }
+    .finalizar{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        height: 100px;
     }
     
 }
 @media(max-width: 400px){
     .corpo{
-        grid-template-rows: 90px 1500px 200px;
+        grid-template-rows: 90px 2300px 100px;
+       
     }
     main{
-        grid-template-rows: 2100px 1fr;
+        grid-template-rows: 2120px 1fr;
     }
     
     .acaiNoCopo, .BarcaOuRoleta, .acaiNaTijela{
@@ -602,12 +686,12 @@ main{
     }
     .acaiNaTijela >h2{
         left: 20px;
-        top: 835px;
+        top: 840px;
         font-size: 18px;
     }
     .BarcaOuRoleta >h2{
         left: 20px;
-        top: 1600px;
+        top: 1610px;
         font-size: 18px;
     }
     .opcoes{
@@ -641,35 +725,48 @@ main{
         font-size: 10px;
         left: 20%;
     }
-    
+    .finalizar{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        height: 100px;
+        color: white;
+    }
 }
 @media(max-width: 300px){
+    .corpo{
+        grid-template-rows:  100px 1900px 60px ;
+        
+    }
     main{
-        grid-template-rows: 2900px 1fr;
+        grid-template-rows: 1700px 200px;
+        
     }
     
-
     .acaiNoCopo, .BarcaOuRoleta, .acaiNaTijela{
         margin-top: 0px;
         background-color: #4A2570;
-        height: 1000px;
+        height: 600px;
+        width: 290px;
+        margin-left: 10px;
     }
     .BarcaOuRoleta{
-        height: 700px;
+        height: 400px;
     }
     .acaiNoCopo >h2{
         left: 11px;
-        top: 47px;
+        top: 85px;
         font-size: 10px;
     }
     .acaiNaTijela >h2{
         left: 11px;
-        top: 1115px;
+        top: 735px;
         font-size: 10px;
     }
     .BarcaOuRoleta >h2{
         left: 11px;
-        top: 2180px;
+        top: 1385px;
         font-size: 10px;
     }
     .opcoes{
@@ -688,7 +785,7 @@ main{
     }
     .opcoes > img{
         width: 100% ;
-        max-height: 45%;
+        height: 75%;
     }
     .preco{
         float: right;
@@ -701,9 +798,18 @@ main{
         font-size: 9px;
         font-weight: bold;
     }
-    .botaoComprar{
-        font-size: 10px;
-        left: 15%;
+    .AreaDeConta{
+
+       height: 150px;
     }
+    .finalizar{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        height: 150px;
+        color: white;
+    }
+  
     
 }

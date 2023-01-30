@@ -68,5 +68,9 @@ nav a{
     .titulo> h2{
         font-size: 12px;
     }
-
+    .logo img{
+        margin-top: 5px;
+        width: 30px;
+        height: 30px;
+    }
 }
