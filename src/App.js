@@ -9,7 +9,7 @@ import MontarAcai from "./components/montar/MontarAcai"
 
 
 export const Props = props => 
-    
+      
       <div className="PaginaDeAcai">
         <Routes>
           <Route exact path='/' element={<Home/>}/>

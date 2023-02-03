@@ -136,29 +136,29 @@ const Main = (props) =>{
                                 <h3>Barca tamanho GG</h3>
                                 <img src="https://www.praticpack.com.br/wp-content/uploads/2020/07/08.barca-de-acai-a-moda-da-sobremesa-refrescante-do-verao-G.jpg" alt="tijela" id="rodarImagem"/>
                                 <div className="preco">
-                                    <span className="precoDe"><s>R$24,00</s> </span>
-                                    <span className="precoPor">R$19,99</span>
+                                    <span className="precoDe"><s>R$28,00</s> </span>
+                                    <span className="precoPor">R$25,99</span>
                                 </div>
-                                <button onClick={() => handleClick(19.99, 'Barca de Açaí tamanho GG, ')} className="botaoComprar">COMPRAR</button>
+                                <button onClick={() => handleClick(25.99, 'Barca de Açaí tamanho GG, ')} className="botaoComprar">COMPRAR</button>
 
                             </div>
                             <div className="opcoes">
                                 <h3>Barca tamanho G</h3>
                                 <img src="https://snowfruit.com.br/wp-content/uploads/2021/11/como_aumentar_as_vendas_no_verao_com_as_barcas_de_acai.png" alt="tijela" id="rodarImagem"/>
                                 <div className="preco">
-                                    <span className="precoDe"><s>R$20,00</s> </span>
-                                    <span className="precoPor">R$16,99</span>
+                                    <span className="precoDe"><s>R$23,00</s> </span>
+                                    <span className="precoPor">R$19,99</span>
                                 </div>
-                                <button onClick={() => handleClick(16.99, 'Barca de Açaí tamanho G, ')} className="botaoComprar">COMPRAR</button>
+                                <button onClick={() => handleClick(19.99, 'Barca de Açaí tamanho G, ')} className="botaoComprar">COMPRAR</button>
                             </div>
                             <div className="opcoes">
                                 <h3>Barca tamanho M</h3>
                                 <img src="https://snowfruit.com.br/wp-content/uploads/2021/11/complementos_barca_de_acai.jpg" alt="tijela" id="rodarImagem"/>
                                 <div className="preco">
-                                    <span className="precoDe"><s>R$18,00</s> </span>
-                                    <span className="precoPor">R$14,99</span>
+                                    <span className="precoDe"><s>R$20,00</s> </span>
+                                    <span className="precoPor">R$18,99</span>
                                 </div>
-                                <button onClick={() => handleClick(14.99, 'Barca de Açaí tamanho M, ')} className="botaoComprar">COMPRAR</button>
+                                <button onClick={() => handleClick(18.99, 'Barca de Açaí tamanho M, ')} className="botaoComprar">COMPRAR</button>
                             </div>
                         </section>
                     </section>
